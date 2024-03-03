@@ -17,4 +17,9 @@ public class Rect {
         this.position = rect.position;
         this.resolution = rect.resolution;
     }
+
+    public boolean isPointInBounds(Vector2i point){
+        return (point.x >= position.x && point.x <= position.x + resolution.width) &&
+                (point.y >= position.y && point.y <= point.y + resolution.height);
+    }
 }
