@@ -1,5 +1,8 @@
 package com.i3anoza.guicore.core;
 
+import com.i3anoza.guicore.core.enums.HorizontalAlign;
+import com.i3anoza.guicore.core.enums.VerticalAlign;
+
 public class Anchors {
     public HorizontalAlign horizontal;
     public VerticalAlign vertical;
